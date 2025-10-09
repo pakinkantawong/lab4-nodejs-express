@@ -48,17 +48,17 @@ npm run dev</pre>
 ใช้เมื่อ deploy หรือไม่ต้องการ watch ไฟล์
 
 ## 🧪 วิธีการทดสอบ
-1️⃣ การรันโปรเจค
+# 1️⃣ การรันโปรเจค
 <pre>npm install
 npm run dev</pre>
 
-2️⃣ ทดสอบผ่าน Browser 🌐
+# 2️⃣ ทดสอบผ่าน Browser 🌐
 เปิด http://localhost:3000
 กรอกฟอร์มติดต่อและฟีดแบ็กให้ครบ
 ทดสอบ validation ทั้งกรณีผ่านและไม่ผ่าน
 ใช้ปุ่มในส่วน “API testing” เพื่อดูผลลัพธ์แบบเรียลไทม์
 
-3️⃣ ทดสอบผ่าน cURL 🧰
+# 3️⃣ ทดสอบผ่าน cURL 🧰
 
 # ทดสอบ Contact API
 `curl -X POST http://localhost:3000/api/contact \
