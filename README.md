@@ -65,8 +65,7 @@ npm start
    curl http://localhost:3000/api/feedback/stats
    ```
 
-## ตัวอย่างหน้าจอ
-ไฟล์ทั้งหมดอยู่ใน `docs/screenshots/` และถูกอ้างอิงใน README เพื่อให้ดูตัวอย่างได้ทันที
+## ผลการทดลอง
 
 ## Terminal npm run dev<br>
 (<img width="559" height="387" alt="Screenshot 2025-10-09 191200" src="https://github.com/user-attachments/assets/59c7f19e-f796-4d4f-9895-d19bef297b8c" />
