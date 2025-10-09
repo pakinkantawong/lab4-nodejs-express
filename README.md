@@ -3,11 +3,22 @@
 ระบบตัวอย่างสำหรับจัดการฟอร์มติดต่อและฟีดแบ็กพร้อม middleware ตรวจสอบข้อมูล, บันทึกลงไฟล์ JSON และหน้าเว็บตัวอย่างสำหรับทดสอบแบบ real-time
 
 ## โครงสร้างหลัก
-- `server.js` – ตั้งค่า Express, rate limit, static files, routes และ endpoint `/api/status`
-- `routes/` – รวม router สำหรับ `contact` (CRUD พื้นฐาน + pagination) และ `feedback` (บันทึกและสถิติ)
-- `middleware/` – เก็บ validation middleware และตัวจัดการไฟล์ JSON
-- `public/` – หน้าเว็บตัวอย่างและสคริปต์ client (`script.js`) สำหรับ validation, fetch API และส่วนทดสอบ
-- `data/` – ไฟล์ JSON เก็บข้อมูล (`contacts.json`, `feedback.json`)
+`contact-form-api/
+├── package.json
+├── server.js
+├── routes/
+│   ├── contact.js
+│   └── feedback.js
+├── middleware/
+│   ├── validators.js
+│   └── jsonStore.js
+├── public/
+│   ├── index.html
+│   └── script.js
+├── data/
+│   ├── contacts.json
+│   └── feedback.json
+`
 
 ## ความต้องการระบบ
 - Node.js v18 ขึ้นไป (พัฒนาด้วย v20)
