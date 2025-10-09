@@ -1,0 +1,16 @@
+[
+  {
+    "rating": 2,
+    "comment": "awdawdaw",
+    "email": null,
+    "id": 1,
+    "createdAt": "2025-10-09T11:55:31.970Z"
+  },
+  {
+    "rating": 5,
+    "comment": "ระบบใช้งานง่ายมาก",
+    "email": null,
+    "id": 2,
+    "createdAt": "2025-10-09T11:58:10.422Z"
+  }
+]
