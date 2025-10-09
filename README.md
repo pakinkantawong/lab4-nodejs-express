@@ -47,7 +47,7 @@ npm run dev</pre>
 <pre>npm start </pre>
 ใช้เมื่อ deploy หรือไม่ต้องการ watch ไฟล์
 
-## 🧪 วิธีการทดสอบ
+### 🧪 วิธีการทดสอบ
 # 1️⃣ การรันโปรเจค
 <pre>npm install
 npm run dev</pre>
@@ -61,22 +61,22 @@ npm run dev</pre>
 # 3️⃣ ทดสอบผ่าน cURL 🧰
 
 # ทดสอบ Contact API
-`curl -X POST http://localhost:3000/api/contact \
+<pre>curl -X POST http://localhost:3000/api/contact \
   -H "Content-Type: application/json" \
   -d '{
     "name": "ทดสอบ นามสกุล",
     "email": "test@email.com",
     "subject": "ทดสอบระบบ",
     "message": "นี่คือข้อความทดสอบระบบ"
-  }'`
+  }'</pre>
 
 # ทดสอบ Feedback API
-`curl -X POST http://localhost:3000/api/feedback \
+<pre>curl -X POST http://localhost:3000/api/feedback \
   -H "Content-Type: application/json" \
   -d '{
     "rating": 5,
     "comment": "ระบบใช้งานง่ายมาก 👍"
-  }'`
+  }'</pre>pre>
 
 # ดูข้อมูลที่บันทึก
 #curl http://localhost:3000/api/contact
