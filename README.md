@@ -7,9 +7,9 @@
 ---
 
 ## 🗂️ โครงสร้างหลัก
-```contact-form-api/```
-```├── package.json```
-```├── server.js```
+```contact-form-api/
+├── package.json
+├── server.js
 ├── routes/
 │ ├── contact.js
 │ └── feedback.js
@@ -21,7 +21,7 @@
 │ └── script.js<
 ├── data/
 │ ├── contacts.json
-│ └── feedback.json`
+│ └── feedback.json```
 
 
 ---
