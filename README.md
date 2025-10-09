@@ -35,55 +35,47 @@ contact-form-api/
 ## 🚀 ขั้นตอนติดตั้งและรัน
 ติดตั้ง dependencies:
 
-npm install
-💻 โหมดพัฒนา (แนะนำ)
-bash
-Copy code
-npm run dev
+`npm install`
+`npm run dev`
+
+## 💻 โหมดพัฒนา (แนะนำ)
 บริการจะเริ่มที่ 👉 http://localhost:3000
 และจะรีโหลดอัตโนมัติเมื่อมีการแก้ไขไฟล์ 🔁
 
-🏁 โหมดรันปกติ
-bash
-Copy code
-npm start
+## 🏁 โหมดรันปกติ
+` npm start `
 ใช้เมื่อ deploy หรือไม่ต้องการ watch ไฟล์
 
-🧪 วิธีการทดสอบ
+## 🧪 วิธีการทดสอบ
 1️⃣ การรันโปรเจค
-bash
-Copy code
-npm install
-npm run dev
+`npm install`
+`npm run dev`
+
 2️⃣ ทดสอบผ่าน Browser 🌐
 เปิด http://localhost:3000
-
 กรอกฟอร์มติดต่อและฟีดแบ็กให้ครบ
-
 ทดสอบ validation ทั้งกรณีผ่านและไม่ผ่าน
-
 ใช้ปุ่มในส่วน “API testing” เพื่อดูผลลัพธ์แบบเรียลไทม์
 
 3️⃣ ทดสอบผ่าน cURL 🧰
-bash
-Copy code
+
 # ทดสอบ Contact API
-curl -X POST http://localhost:3000/api/contact \
+`curl -X POST http://localhost:3000/api/contact \
   -H "Content-Type: application/json" \
   -d '{
     "name": "ทดสอบ นามสกุล",
     "email": "test@email.com",
     "subject": "ทดสอบระบบ",
     "message": "นี่คือข้อความทดสอบระบบ"
-  }'
+  }'`
 
 # ทดสอบ Feedback API
-curl -X POST http://localhost:3000/api/feedback \
+`curl -X POST http://localhost:3000/api/feedback \
   -H "Content-Type: application/json" \
   -d '{
     "rating": 5,
     "comment": "ระบบใช้งานง่ายมาก 👍"
-  }'
+  }'`
 
 # ดูข้อมูลที่บันทึก
 curl http://localhost:3000/api/contact
