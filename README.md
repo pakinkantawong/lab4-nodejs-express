@@ -7,21 +7,21 @@
 ---
 
 ## 🗂️ โครงสร้างหลัก
-contact-form-api/<br>
-├── package.json<br>
-├── server.js<br>
-├── routes/<br>
-│ ├── contact.js<br>
-│ └── feedback.js<br>
-├── middleware/<br>
-│ ├── validators.js<br>
-│ └── jsonStore.js<br>
-├── public/<br>
-│ ├── index.html<br>
-│ └── script.js<br>
-├── data/<br>
-│ ├── contacts.json<br>
-│ └── feedback.json<br>
+contact-form-api/
+├── package.json
+├── server.js
+├── routes/
+│ ├── contact.js
+│ └── feedback.js
+├── middleware/
+│ ├── validators.js
+│ └── jsonStore.js
+├── public/
+│ ├── index.html
+│ └── script.js<
+├── data/
+│ ├── contacts.json
+│ └── feedback.json
 
 
 ---
@@ -35,8 +35,8 @@ contact-form-api/<br>
 ## 🚀 ขั้นตอนติดตั้งและรัน
 ติดตั้ง dependencies:
 
-`npm install`
-`npm run dev`
+`npm install
+npm run dev`
 
 ## 💻 โหมดพัฒนา (แนะนำ)
 บริการจะเริ่มที่ 👉 http://localhost:3000
@@ -48,8 +48,8 @@ contact-form-api/<br>
 
 ## 🧪 วิธีการทดสอบ
 1️⃣ การรันโปรเจค
-`npm install`
-`npm run dev`
+`npm install
+npm run dev`
 
 2️⃣ ทดสอบผ่าน Browser 🌐
 เปิด http://localhost:3000
