@@ -78,22 +78,22 @@ npm run dev`
   }'`
 
 # ดูข้อมูลที่บันทึก
-curl http://localhost:3000/api/contact
-curl http://localhost:3000/api/feedback/stats
-📊 ผลการทดลอง
-🖥️ Terminal: npm run dev
+#curl http://localhost:3000/api/contact
+#curl http://localhost:3000/api/feedback/stats
+### 📊 ผลการทดลอง
+## 🖥️ Terminal: npm run dev
 <img width="559" height="387" alt="Screenshot 2025-10-09 191200" src="https://github.com/user-attachments/assets/59c7f19e-f796-4d4f-9895-d19bef297b8c" />
-📬 Postman – GET Contact
+## 📬 Postman – GET Contact
 <img width="1281" height="804" alt="image" src="https://github.com/user-attachments/assets/4251d02e-678d-4524-a1fd-a8ec6c7707ac" />
-💬 Postman – POST Feedback
+## 💬 Postman – POST Feedback
 <img width="1278" height="800" alt="image" src="https://github.com/user-attachments/assets/efc1ee30-b759-49b9-8c3b-3390bcb223ff" />
-📈 Postman – Feedback Stats
+## 📈 Postman – Feedback Stats
 <img width="1276" height="798" alt="image" src="https://github.com/user-attachments/assets/0d2b4d23-516c-40e8-8a20-5135bd40e3d8" />
-📩 Postman – POST Contact
+## 📩 Postman – POST Contact
 <img width="1274" height="810" alt="image" src="https://github.com/user-attachments/assets/d00f6a84-c883-49c5-850a-94b786fa96d0" />
-🔄 การรีเซ็ตข้อมูล
+## 🔄 การรีเซ็ตข้อมูล
 หากต้องการเริ่มใหม่หรือล้างข้อมูล JSON ทั้งหมดในโฟลเดอร์ data/
 สามารถใช้คำสั่งต่อไปนี้ได้เลย 👇
 
-printf '[]\n' > data/contacts.json
-printf '[]\n' > data/feedback.json
+`printf '[]\n' > data/contacts.json
+printf '[]\n' > data/feedback.json`
