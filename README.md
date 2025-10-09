@@ -8,7 +8,6 @@
 - `middleware/` – เก็บ validation middleware และตัวจัดการไฟล์ JSON
 - `public/` – หน้าเว็บตัวอย่างและสคริปต์ client (`script.js`) สำหรับ validation, fetch API และส่วนทดสอบ
 - `data/` – ไฟล์ JSON เก็บข้อมูล (`contacts.json`, `feedback.json`)
-- `docs/screenshots/` – รวมภาพตัวอย่างขั้นตอนการทำงาน
 
 ## ความต้องการระบบ
 - Node.js v18 ขึ้นไป (พัฒนาด้วย v20)
